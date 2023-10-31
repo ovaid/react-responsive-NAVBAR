@@ -1,0 +1,74 @@
+/* Style for the outer container */
+.country-list {
+  font-family: Arial, sans-serif;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+}
+
+/* Style for the search input */
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: #fff;
+}
+
+/* Style for the category links */
+.links {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+
+.link {
+  cursor: pointer;
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  text-align: center;
+  font-size: 16px;
+}
+
+.link:hover {
+  background-color: #ccc;
+}
+
+/* Style for the list of countries */
+.countries {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.country {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.country:last-child {
+  border-bottom: none;
+}
+
+.flag {
+  margin-right: 10px;
+  font-size: 24px;
+}
+
+.name {
+  flex: 1;
+  font-size: 18px;
+}
+
+.arrow {
+  font-size: 20px;
+}

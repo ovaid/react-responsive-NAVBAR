@@ -1,0 +1,122 @@
+
+body {
+  font-family: 'Font Name', sans-serif;
+}
+
+h1 {
+  font-family: 'Font Name', sans-serif;
+}
+.info-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    margin-top: 2pc;
+  }
+  
+  .info-column h1 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    width: 100%;
+    max-width: 100%;
+    color: #4A4A4A;
+  }
+  
+  .info-column p {
+    font-size: 15px;
+    margin: 5px 0;
+    color: #8A8A8A;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .info-column .store-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center !important;
+    width: 100%;
+    vertical-align: middle;
+  }
+  .info-column .store-icons img{
+    margin: 5px;
+    width: 100%;
+  }
+  .info-column .store-icons p{
+    font-size: 13px;
+    width: 100%;
+  }
+  
+  .info-column .store-icons .store1 {
+    width: 50px;
+    margin: 0 5px;
+    max-width: 100%;
+  }
+  .info-column .store-icons #apple{
+    border-radius: 50%;
+    width: 40px;
+    height: auto;
+    vertical-align: middle;
+  }
+  .info-column .store-icons #android{
+    border-radius: 50%;
+    width: 59px;
+    height: auto;
+    vertical-align: middle;
+  }
+#star1{
+    width: 100px;
+    margin: 0px;
+    height: auto;
+  
+    height: auto;
+    vertical-align: middle;
+
+  }
+  @media screen and (max-width:786px){
+    .info-column .store-icons {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center !important;
+      width: 100%;
+      vertical-align: middle;
+    }
+    .info-column .store-icons img{
+      margin: 3px;
+      width: 100%;
+    }
+    .info-column .store-icons p{
+      font-size: 13px;
+      width: 100%;
+    }
+    
+    .info-column .store-icons .store1 {
+      width: 40px;
+      margin: 0 5px;
+      max-width: 100%;
+    }
+    .info-column .store-icons #apple{
+      border-radius: 50%;
+      width: 32px;
+      height: auto;
+      vertical-align: middle;
+    }
+    .info-column .store-icons #android{
+      border-radius: 50%;
+      width: 50px;
+      height: auto;
+      vertical-align: middle;
+    }
+  #star1{
+      width: 100px;
+      margin: 0px;
+      height: auto;
+    
+      height: auto;
+      vertical-align: middle;
+  
+    }
+  }
+  
